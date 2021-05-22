@@ -8119,7 +8119,7 @@ h1, h2, h3, h4, h5,
     border: 1px solid #f7b71d;
     background: #f7b71d !important; }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: #d4ca68; }
+    color: #D2E9FF; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav > .nav-item.active > a {
       color: #d4ca68; } }
@@ -8769,7 +8769,11 @@ h1, h2, h3, h4, h5,
 	  text-shadow:0px 0px 15px #fff;
 	  background-color:#FBFBFF;
 	  opacity:0.9;
-	  border-radius:5px}
+	  border-radius:5px;
+	  border-color:#aaaaee;
+	  border-style:solid;
+	  border-width:3px;
+	  padding:5px}
       .listing-wrap .text h3 a {
         color: #fff; }
     .listing-wrap .text .btn-link {
