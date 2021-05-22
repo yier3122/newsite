@@ -25,6 +25,7 @@
    border-style:dashed;
    border-color:#BEBEBE;
    padding:5px;   }
-.intro{
-	margin: center;
-    padding-top:3rem}
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+	line-height: 1.8rem;
+}
