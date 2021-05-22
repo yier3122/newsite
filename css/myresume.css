@@ -1,7 +1,9 @@
 .map {
    margin: center;
    line-height: 1rem;
-   font-size: 30px; }
+   font-size: 30px;
+   padding-top:3rem;
+}
 .introduce {
    text-align: center;
    padding:6rem;   }
@@ -18,3 +20,11 @@
 .food2{
 
    padding-left:1rem; }
+.info{   
+   border-width:3px;
+   border-style:dashed;
+   border-color:#BEBEBE;
+   padding:5px;   }
+.intro{
+	margin: center;
+    padding-top:3rem}
