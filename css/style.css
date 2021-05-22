@@ -880,7 +880,8 @@ pre {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 33.33333%;
     flex: 0 0 33.33333%;
-    max-width: 33.33333%; }
+    max-width: 33.33333%; 
+    margin: center; }
   .col-md-5 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 41.66667%;
@@ -6517,7 +6518,8 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important; }
+  margin-bottom: 3rem !important; 
+  margin-top: 3rem !important; }
 
 .ml-5,
 .mx-5 {
@@ -8020,8 +8022,9 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
-  color: rgba(0, 0, 0, 0.8);
-  font-weight: 400; }
+  color: #000;
+  font-weight: 400; 
+  font-weight:bolder}
 
 .container {
   max-width: 1250px; }
@@ -8261,10 +8264,13 @@ h1, h2, h3, h4, h5,
 .slider-text {
   height: 850px; }
   .slider-text h1 {
-    font-size: 60px;
-    color: #000000;
+    font-size: 100px;
+    color: #FFFFFF;
+	font-weight:bold;
     line-height: 1.1;
-    font-weight: 400; }
+    font-weight: 400; 
+	-webkit-text-stroke: 2px #005757;
+	text-shadow:0px 0px 15px #fff;}
     .slider-text h1 span {
       display: block; }
   .slider-text .icon-wrap .icon {
@@ -8297,11 +8303,12 @@ h1, h2, h3, h4, h5,
     line-height: 1.5;
     color: rgba(0, 0, 0, 0.8); }
   .slider-text .breadcrumbs {
-    font-size: 14px;
+    font-size: 30px;
     margin-bottom: 20px;
     z-index: 99;
     text-transform: uppercase;
-    font-weight: 500; }
+    font-weight: 500; 
+	text-shadow:0px 0px 15px #fff}
     .slider-text .breadcrumbs span {
       color: rgba(0, 0, 0, 0.7); }
       .slider-text .breadcrumbs span i {
@@ -8757,7 +8764,12 @@ h1, h2, h3, h4, h5,
     padding: 22px; }
     .listing-wrap .text h3 {
       font-size: 20px;
-      font-weight: 600; }
+      font-weight: 600; 
+	  font-weight:bolder;
+	  text-shadow:0px 0px 15px #fff;
+	  background-color:#FBFBFF;
+	  opacity:0.9;
+	  border-radius:5px}
       .listing-wrap .text h3 a {
         color: #fff; }
     .listing-wrap .text .btn-link {
@@ -9112,7 +9124,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 6em 0;
+  padding: 3em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {

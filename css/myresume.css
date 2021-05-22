@@ -1,0 +1,20 @@
+.map {
+   margin: center;
+   line-height: 1rem;
+   font-size: 30px; }
+.introduce {
+   text-align: center;
+   padding:6rem;   }
+.route{
+   margin: center;
+   line-height: 2rem;
+   font-size: 20px; }
+.food{
+   margin: center;
+   line-height: 2rem;
+   font-size: 35px;
+   padding-left:9rem;
+   font-weight:bold   }   
+.food2{
+
+   padding-left:1rem; }
