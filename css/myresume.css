@@ -5,10 +5,10 @@
    padding-top:3rem;}
 
 .map img {
-	 margin: center;
+	 margin: auto;
      line-height: 1rem;
      font-size: 30px;
-     padding-top:3rem;}
+     padding-top:auto;}
 .introduce {
    text-align: center;
    padding:3rem;   }
@@ -29,7 +29,7 @@
    border-width:3px;
    border-style:solid;
    border-color:#BEBEBE;
-   padding:1rem;
+   padding:auto;
      }
 body {
     font-family: 'Noto Sans TC', sans-serif;
