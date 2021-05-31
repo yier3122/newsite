@@ -11,7 +11,8 @@
      padding-top:auto;}
 .introduce {
    text-align: center;
-   padding:3rem;   }
+   padding:3rem; 
+   margin: center;  }
 .route{
    margin: center;
    line-height: 2rem;
@@ -36,15 +37,8 @@ body {
 	line-height: 1.8rem;
 }
 .google-maps {
-  position: relative;
-  padding-bottom: 75%; 
-  height: 0;
-  overflow: hidden;
+     margin: auto;
 }
 .google-maps iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important;
+    margin: auto;
 }
