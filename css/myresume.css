@@ -41,6 +41,7 @@ body {
 }
 .google-maps iframe {
     margin: auto;
+	padding: auto;
 }
 .part12 {
     width: 100%;

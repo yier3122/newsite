@@ -306,7 +306,7 @@ h1, .h1 {
   font-size: 2.5rem; }
 
 h2, .h2 {
-  font-size: 2rem; }
+  font-size: 3rem; }
 
 h3, .h3 {
   font-size: 1.75rem; }
@@ -474,7 +474,7 @@ pre {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; 
-  }
+  margin: center}
 
 .no-gutters {
   margin-right: 0;
@@ -8811,7 +8811,7 @@ h1, h2, h3, h4, h5,
   font-weight: 600; }
 
 .property-details span.subheading {
-  font-size: 18px;
+  font-size: 25px;
   color: #4F9D9D;
   font-weight: 500;
   display: block;
