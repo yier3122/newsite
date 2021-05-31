@@ -4,15 +4,14 @@
    font-size: 30px;
    padding-top:3rem;}
 
-.map  {
-     max-width:500px;
+.map img {
 	 margin: center;
      line-height: 1rem;
      font-size: 30px;
      padding-top:3rem;}
 .introduce {
    text-align: center;
-   padding:6rem;   }
+   padding:3rem;   }
 .route{
    margin: center;
    line-height: 2rem;
@@ -30,7 +29,7 @@
    border-width:3px;
    border-style:solid;
    border-color:#BEBEBE;
-   padding:auto;
+   padding:1rem;
      }
 body {
     font-family: 'Noto Sans TC', sans-serif;
