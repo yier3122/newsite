@@ -1,9 +1,15 @@
-.map {
+.map1 {
    margin: center;
    line-height: 1rem;
    font-size: 30px;
-   padding-top:3rem;
-}
+   padding-top:3rem;}
+
+.map img {
+     max-width:500px;
+	 margin: center;
+     line-height: 1rem;
+     font-size: 30px;
+     padding-top:3rem;}
 .introduce {
    text-align: center;
    padding:6rem;   }
@@ -22,9 +28,10 @@
    padding-left:1rem; }
 .info{   
    border-width:3px;
-   border-style:dashed;
+   border-style:solid;
    border-color:#BEBEBE;
-   padding:5px;   }
+   padding:auto;
+   margin:auto   }
 body {
     font-family: 'Noto Sans TC', sans-serif;
 	line-height: 1.8rem;
