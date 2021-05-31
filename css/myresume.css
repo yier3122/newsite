@@ -42,3 +42,21 @@ body {
 .google-maps iframe {
     margin: auto;
 }
+.part12 {
+    width: 100%;
+    float: left;
+    margin: 60px auto;
+}
+.photo{
+    float:left;
+    width:50%;
+}
+.part1{
+    float:right;
+    width:50%;
+	font-size:20px;
+	padding:1rem;
+	
+	
+}
+
