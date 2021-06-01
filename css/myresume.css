@@ -36,12 +36,20 @@ body {
     font-family: 'Noto Sans TC', sans-serif;
 	line-height: 1.8rem;
 }
-.google-maps {
-     margin: auto;
-}
-.google-maps iframe {
-    margin: auto;
-	padding: auto;
+@media (max-width: 599px) {
+  .google-maps {
+    position: relative;
+    padding-bottom: 75%; /* 此為地圖長寬比 */
+    height: 0;
+    overflow: hidden;
+  }
+  .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
 }
 .part12 {
     width: 100%;
@@ -59,19 +67,4 @@ body {
 	padding:1rem;
 	
 	
-}
-@media (max-width: 599px) {
-  .google-maps {
-    position: relative;
-    padding-bottom: 75%; /* 此為地圖長寬比 */
-    height: 0;
-    overflow: hidden;
-  }
-  .google-maps iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-  }
 }
