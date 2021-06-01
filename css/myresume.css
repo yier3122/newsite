@@ -60,7 +60,7 @@ body {
 	
 	
 }
-media (max-width: 599px) {
+@media (max-width: 599px) {
   .google-maps {
     position: relative;
     padding-bottom: 75%; /* 此為地圖長寬比 */
